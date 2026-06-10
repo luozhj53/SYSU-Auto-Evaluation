@@ -5,7 +5,7 @@
 
 这是一个专为 **中山大学评教系统** 打造的高效、全自动学生评教脚本。基于最新的 Vue + iView 框架进行了全面重构，完美兼容当前评教系统环境。
 
-<span style="color: red; font-weight:bold">默认为全好评</span>
+$\Large \boldsymbol{\color{red}{默认为全好评}}$
 
 ---
 
