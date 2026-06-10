@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tampermonkey](https://img.shields.io/badge/Tampermonkey-Supported-green.svg)](#)
 
-这是一个专为 **中山大学教务系统** 打造的高效、全自动学生评教脚本。基于最新的 Vue + iView 框架进行了全面重构，完美兼容当前教务系统环境。
+这是一个专为 **中山大学评教系统** 打造的高效、全自动学生评教脚本。基于最新的 Vue + iView 框架进行了全面重构，完美兼容当前评教系统环境。
 
 ---
 
@@ -28,18 +28,25 @@
 
 ## 🚀 安装指南
 
-1. **安装脚本管理器**：
-   在浏览器中安装 [Tampermonkey](https://www.tampermonkey.net/) (油猴) 插件。
-2. **导入脚本**：
-   - 打开 Tampermonkey 的控制台，点击“添加新脚本”。
-   - 将 [SYSU-Auto-Evaluation.js](./SYSU-Auto-Evaluation.js) 的全部内容复制并粘贴覆盖到编辑器中。
-   - 点击“保存” (Ctrl+S) 启用脚本。
+目前提供以下两种安装方式：
+
+### 方式一：通过 Greasy Fork 一键安装（推荐）
+1. 安装浏览器脚本管理器插件：[Tampermonkey](https://www.tampermonkey.net/) (油猴)。
+2. 点击访问 [中大自动评教 - Greasy Fork](https://greasyfork.org/zh-CN/scripts/582072-%E4%B8%AD%E5%A4%A7%E8%87%AA%E5%8A%A8%E8%AF%84%E6%95%99) 页面。
+3. 点击 **“安装此脚本”** 按钮即可完成安装。
+   *(备注：此方式较为便捷，但可能需要魔法上网；若无法访问该链接，请使用下方的第二种安装方式。)*
+
+### 方式二：手动导入本地代码
+1. 安装浏览器脚本管理器插件：[Tampermonkey](https://www.tampermonkey.net/) (油猴)。
+2. 打开 Tampermonkey 的控制台，点击“添加新脚本”。
+3. 将仓库中的 [SYSU-Auto-Evaluation.js](./SYSU-Auto-Evaluation.js) 的全部内容复制并粘贴覆盖到编辑器中。
+4. 点击“保存” (Ctrl+S) 启用脚本。
 
 ---
 
 ## 💡 使用方法
 
-1. 登录 **中山大学教务系统**，并进入**学生评教管理**页面。
+1. 登录 **中山大学评教系统**，并进入**学生评教管理**页面。
 2. 页面加载完成后，右上角会出现绿色的 **🎓 自动评教** 悬浮控制面板。
 3. 确保页面处于“一级评教分类任务页”后，点击悬浮窗中的 **“开始评教”** 按钮。
 4. 脚本将自动接管浏览器并以秒级速度快速完成全校课程的评教。评教完成后，系统将弹出“评教已完成”的成功提示。
@@ -49,7 +56,7 @@
 ## 🤝 鸣谢与声明
 
 - 本项目由 [@luozhj53](https://github.com/luozhj53) 维护并完成了核心的 Vue / iView 重构。
-- **特别鸣谢** 原作者 [KumaTea](https://github.com/KumaTea)。本项目的设计核心、异步流程控制和 `sweetalert` 的引入均启发自其原版 React 评教脚本：[中大自动评教](https://greasyfork.org/zh-CN/scripts/417056)。由于学校后续将教务系统升级为了基于 Vue 和 iView 的单页应用（SPA），导致原版 React 脚本无法直接运行，因此本项目在其开创性思路的基础上，完成了面向新系统的彻底重构与性能优化。
+- **特别鸣谢** 原作者 [KumaTea](https://github.com/KumaTea)。本项目的设计核心、异步流程控制和 `sweetalert` 的引入均启发自其原版 React 评教脚本：[中大自动评教](https://greasyfork.org/zh-CN/scripts/417056)。由于学校后续将评教系统升级为了基于 Vue 和 iView 的单页应用（SPA），导致原版 React 脚本无法直接运行，因此本项目在其开创性思路的基础上，完成了面向新系统的彻底重构与性能优化。
 
 ---
 
