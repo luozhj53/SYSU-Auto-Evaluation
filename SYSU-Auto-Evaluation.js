@@ -3,11 +3,11 @@
 // @name:en            SYSU Auto Evaluation
 // @name:zh            中大自动评教
 // @namespace          https://github.com/luozhj53/sysu-auto-evaluation
-// @version            1.0.0
-// @description        中山大学教务系统学生自动评教脚本（基于 KumaTea 的原版脚本进行 Vue/iView 重构）
+// @version            1.0.1
+// @description        中山大学评教系统学生自动评教脚本（基于 KumaTea 的原版脚本进行 Vue/iView 重构）
 // @description:en     Automatic Script for Student Evaluation from Academic Affairs System of Sun Yat-sen University (Refactored Version based on KumaTea's original script)
-// @description:zh     中山大学教务系统学生自动评教脚本（基于 KumaTea 的原版脚本进行 Vue/iView 重构）
-// @description:zh-cn  中山大学教务系统学生自动评教脚本（基于 KumaTea 的原版脚本进行 Vue/iView 重构）
+// @description:zh     中山大学评教系统学生自动评教脚本（基于 KumaTea 的原版脚本进行 Vue/iView 重构）
+// @description:zh-cn  中山大学评教系统学生自动评教脚本（基于 KumaTea 的原版脚本进行 Vue/iView 重构）
 // @author             luozhj53 (Based on the work of KumaTea)
 // @match              https://pjxt.sysu.edu.cn/*
 // @require            https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js
